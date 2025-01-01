@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+
+html, bodt {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    padding: 8px 24px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid brown;
+
+    table {
+        th, td {
+            min-width: 100px;
+            text-align: center;
+        }
+    }
+}
+
+h1 {
+    font-size: x-large;
+}
+
+#cartsummary {
+    position: absolute;
+    top: 80px;
+    right:20px;
+    background-color: beige;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.productcard { 
+    border: 1px solid black;
+}
+
+.productthumbnail{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.productbottomsheet {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#productlist {
+    display: grid;
+    max-width: 1240px;
+    margin: 5em auto;
+    padding: 2em;
+    grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
+    gap: 2em;
+}
+
+
+.productname {
+    display: block;
+    margin-top: 1em ;
+}
+
+button {
+    background-color: black;
+    border-radius: 4px;
+    border:none;
+    color: azure;
+    padding: 1em 2em;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.removefromcart {
+    background-color: red;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+}
+
+.addcart {
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+}
