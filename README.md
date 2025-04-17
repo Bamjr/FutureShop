@@ -6,7 +6,7 @@
 
 ## 🔗 Live Website
 
-You can view the deployed site here:  
+You can view the deployed site here:  bamjr.github.io/FutureShop/
 
 
 ## 🛒 Features
